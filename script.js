@@ -9,9 +9,9 @@ function calculate() {
   try {
     const result = eval(expression);
     if (result === 8) {
-      document.getElementById('result').value = 'I Love You';
+      document.getElementById('result').value = 'I Love You Syamina';
     } else if (result === 10) {
-      document.getElementById('result').value = 'I miss you Syamina';
+      document.getElementById('result').value = 'I Miss You Syamina';
     } else {
       document.getElementById('result').value = result;
     }
