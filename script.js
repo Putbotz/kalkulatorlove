@@ -24,3 +24,8 @@ function clearResult() {
   expression = '';
   document.getElementById('result').value = '';
 }
+
+function deleteLast() {
+  expression = expression.slice(0, -1);
+  document.getElementById('result').value = expression;
+}
