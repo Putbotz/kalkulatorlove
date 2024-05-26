@@ -10,6 +10,8 @@ function calculate() {
     const result = eval(expression);
     if (result === 8) {
       document.getElementById('result').value = 'I Love You';
+    } else if (result === 10) {
+      document.getElementById('result').value = 'I miss you Syamina';
     } else {
       document.getElementById('result').value = result;
     }
